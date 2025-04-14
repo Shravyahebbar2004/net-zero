@@ -394,7 +394,7 @@ window.selectAction = async function(action) {
 
 .reading {
     background: white;
-    padding: 0.5rem;
+    padding: 0.5rem; /* Ensure this is within a valid CSS block */
     border-radius: 8px;
     text-align: center;
 }
